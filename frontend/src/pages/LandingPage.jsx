@@ -4,10 +4,11 @@ import ConnectWalletButton from "../components/common/ConnectWalletButton";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import landingImage from "../assets/landingimage.jpg";
-import waterBottleImage from "../assets/waterbottle.jpg";
-import commGardenImage from "../assets/commgarden.jpg";
-import aiImage from "../assets/ai.jpg";
+
+const landingImage = "/assets/landingimage.jpg";
+const waterBottleImage = "/assets/waterbottle.jpg";
+const commGardenImage = "/assets/commgarden.jpg";
+const aiImage = "/assets/ai.jpg";
 
 export default function LandingPage() {
   useEffect(() => {

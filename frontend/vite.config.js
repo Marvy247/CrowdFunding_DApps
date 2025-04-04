@@ -11,4 +11,16 @@ export default defineConfig({
     },
   },
   base: "/",
+  server: {
+    host: true,
+    port: 5173,
+  },
+  build: {
+    assetsDir: "assets",
+    rollupOptions: {
+      output: {
+        assetFileNames: "assets/[name].[ext]",
+      },
+    },
+  },
 });

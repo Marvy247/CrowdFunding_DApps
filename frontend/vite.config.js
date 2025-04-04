@@ -10,7 +10,7 @@ export default defineConfig({
       plugins: [tailwindcss(), autoprefixer()],
     },
   },
-  base: "/",
+  base: process.env.NODE_ENV === "production" ? "./" : "/",
   server: {
     host: true,
     port: 5173,

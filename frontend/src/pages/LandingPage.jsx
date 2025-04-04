@@ -5,10 +5,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const landingImage = "/assets/landingimage.jpg";
-const waterBottleImage = "/assets/waterbottle.jpg";
-const commGardenImage = "/assets/commgarden.jpg";
-const aiImage = "/assets/ai.jpg";
+import landingImage from "/assets/landingimage.jpg";
 
 export default function LandingPage() {
   useEffect(() => {
@@ -29,7 +26,7 @@ export default function LandingPage() {
       progress: 65,
       target: 5000,
       daysLeft: 12,
-      image: waterBottleImage,
+      image: "",
       category: "Environment",
     },
     {
@@ -40,7 +37,7 @@ export default function LandingPage() {
       progress: 40,
       target: 10000,
       daysLeft: 25,
-      image: commGardenImage,
+      image: "",
       category: "Community",
     },
     {
@@ -51,7 +48,7 @@ export default function LandingPage() {
       progress: 85,
       target: 15000,
       daysLeft: 5,
-      image: aiImage,
+      image: "",
       category: "Technology",
     },
   ];

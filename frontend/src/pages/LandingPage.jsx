@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import landingImage from "/assets/landingimage.jpg";
+const landingImage = "/assets/landingimage.jpg";
 
 export default function LandingPage() {
   useEffect(() => {

@@ -10,12 +10,5 @@ export default defineConfig({
       plugins: [tailwindcss(), autoprefixer()],
     },
   },
-  resolve: {
-    alias: {
-      "aos/dist/aos.css": path.resolve(
-        __dirname,
-        "node_modules/aos/dist/aos.css"
-      ),
-    },
-  },
+  base: "/",
 });

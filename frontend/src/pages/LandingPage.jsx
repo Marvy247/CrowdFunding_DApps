@@ -108,7 +108,7 @@ export default function LandingPage() {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
                 <img
-                  src={`${import.meta.env.BASE_URL}assets/landingimage.jpg`}
+                  src="/assets/landingimage.jpg"
                   alt="People collaborating on creative projects"
                   className="w-full h-auto object-cover"
                   data-aos="zoom-in"

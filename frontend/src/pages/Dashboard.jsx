@@ -15,7 +15,7 @@ const mockCreatedCampaigns = [
     target: 5000,
     daysLeft: 12,
     category: "Environment",
-    image: "/placeholder-campaign1.jpg",
+    image: "/assets/waterbottle.jpg",
     status: "active",
   },
   {
@@ -26,7 +26,7 @@ const mockCreatedCampaigns = [
     target: 10000,
     daysLeft: 25,
     category: "Community",
-    image: "/placeholder-campaign2.jpg",
+    image: "/assets/commgarden.jpg",
     status: "active",
   },
 ];
@@ -42,7 +42,7 @@ const mockBackedCampaigns = [
     category: "Environment",
     pledgeAmount: 50,
     reward: "Special thank you package",
-    image: "/placeholder-campaign3.jpg",
+    image: "/assets/ai.jpg",
     status: "funded",
   },
   {
@@ -55,7 +55,7 @@ const mockBackedCampaigns = [
     category: "Education",
     pledgeAmount: 100,
     reward: "Early access to curriculum",
-    image: "/placeholder-campaign4.jpg",
+    image: "/assets/childreneducation.jpg",
     status: "completed",
   },
 ];

@@ -4,6 +4,10 @@ import ConnectWalletButton from "../components/common/ConnectWalletButton";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import landingImage from "../assets/landingimage.jpg";
+import waterBottleImage from "../assets/waterbottle.jpg";
+import commGardenImage from "../assets/commgarden.jpg";
+import aiImage from "../assets/ai.jpg";
 
 export default function LandingPage() {
   useEffect(() => {
@@ -24,7 +28,7 @@ export default function LandingPage() {
       progress: 65,
       target: 5000,
       daysLeft: 12,
-      image: "/src/assets/waterbottle.jpg",
+      image: waterBottleImage,
       category: "Environment",
     },
     {
@@ -35,7 +39,7 @@ export default function LandingPage() {
       progress: 40,
       target: 10000,
       daysLeft: 25,
-      image: "/src/assets/commgarden.jpg",
+      image: commGardenImage,
       category: "Community",
     },
     {
@@ -46,7 +50,7 @@ export default function LandingPage() {
       progress: 85,
       target: 15000,
       daysLeft: 5,
-      image: "/src/assets/ai.jpg",
+      image: aiImage,
       category: "Technology",
     },
   ];
@@ -108,7 +112,7 @@ export default function LandingPage() {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
                 <img
-                  src="/src/assets/landingimage.jpg"
+                  src={landingImage}
                   alt="People collaborating on creative projects"
                   className="w-full h-auto object-cover"
                   data-aos="zoom-in"

@@ -15,6 +15,7 @@
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
     "aos": "^2.3.4",
+    "date-fns": "^4.1.0",
     "ethers": "^6.12.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
